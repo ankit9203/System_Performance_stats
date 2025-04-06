@@ -1,7 +1,6 @@
-dd# System Performance Stats
+# System Performance Stats
 
-A lightweight Bash script to monitor key system performance metrics including CPU, memory, disk usage, and top resource-hungry processes. Ideal for basic server health checks and logging.
-
+A lightweight Bash script to monitor key system performance metrics includi>
 ## Features
 
 - CPU usage reporting
@@ -46,26 +45,37 @@ Results are saved in a file named system_health.log in the current directory.
 
 ------
 ```bash
-Example Output (Text)
-
+# This shows as a styled shell output box
 ==== System Health Report ====
 Date: 2025-04-05 22:30:00
 
 CPU Usage: 14.3%
 Memory Usage: 58.7%
 Swap Usage: 12.4%
+...
+
+---
+
+### ✅ How it renders on GitHub:
+
+```bash
+==== System Health Report ====
+Date: 2025-04-05 22:30:00
+
+CPU Usage: 14.3%
+Memory Usage: 58.7%
+Swap Usage: 12.4%
+
 Disk Usage:
 /dev/sda1        50G   25G   25G  50% /
 
 Top 5 Processes by CPU:
   PID USER     %CPU COMMAND
   124 root     35.0 chrome
-  ...
 
 Top 5 Processes by Memory:
   PID USER     %MEM COMMAND
   234 root     12.2 java
-  ...
 
 ------
 
