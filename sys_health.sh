@@ -60,7 +60,7 @@ CPU_tally
 
 
 echo -e "\n\n\n------ Top 5 Memory Usage ------"
- Memory_tally
+Memory_tally
 
 uptime_funct
 
