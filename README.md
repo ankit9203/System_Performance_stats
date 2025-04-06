@@ -1,4 +1,4 @@
-# System Performance Stats
+dd# System Performance Stats
 
 A lightweight Bash script to monitor key system performance metrics including CPU, memory, disk usage, and top resource-hungry processes. Ideal for basic server health checks and logging.
 
@@ -9,20 +9,6 @@ A lightweight Bash script to monitor key system performance metrics including CP
 - Disk usage summary
 - Top 5 processes by CPU and memory
 - Output saved to `system_health.log`
-
----
-
-## 📸 Screenshots
-
-### ✅ Terminal Execution
-
-![Terminal Run](screenshots/run_script.png)
-
-### 📄 Sample Output
-
-![Log Output](screenshots/sample_log.png)
-
-> 📝 Place your screenshots in a folder named `screenshots/` at the root of your repo.
 
 ---
 
@@ -43,13 +29,13 @@ A lightweight Bash script to monitor key system performance metrics including CP
 ------
 
 2. Make the file executable:
-    
+    ```bash    
    chmod +x sys_health.sh
 
 ------
 
 3. Run the script
-
+	 ```bash
 	./sys_health.sh
 
 ------
