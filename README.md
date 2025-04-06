@@ -38,25 +38,11 @@ A lightweight Bash script to monitor key system performance metrics includi>
 	./sys_health.sh
 
 ------
+## Output
 
-Output
+Results are saved in a file named `system_health.log` in the current directory.
 
-Results are saved in a file named system_health.log in the current directory.
-
-------
-```bash
-# This shows as a styled shell output box
-==== System Health Report ====
-Date: 2025-04-05 22:30:00
-
-CPU Usage: 14.3%
-Memory Usage: 58.7%
-Swap Usage: 12.4%
-...
-
----
-
-### ✅ How it renders on GitHub:
+### Example Output (Text)
 
 ```bash
 ==== System Health Report ====
@@ -77,7 +63,7 @@ Top 5 Processes by Memory:
   PID USER     %MEM COMMAND
   234 root     12.2 java
 
----
+
 Author
 
    @ankit9203
