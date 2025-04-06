@@ -44,7 +44,7 @@ Results are saved in a file named `system_health.log` in the current directory.
 
 ### Example Output (Text)
 
-```bash
+```
 ==== System Health Report ====
 Date: 2025-04-05 22:30:00
 
@@ -62,15 +62,11 @@ Top 5 Processes by CPU:
 Top 5 Processes by Memory:
   PID USER     %MEM COMMAND
   234 root     12.2 java
-'''
+```
 
-Author
+Author: [@ankit9203](https://github.com/ankit9203)  
 
-   @ankit9203
+---  
 
-------
-
-
-License
-
-	This project is open source and available under the MIT License.
+**License**  
+This project is open source and available under the [MIT License](LICENSE).  
