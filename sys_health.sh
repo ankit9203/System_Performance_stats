@@ -36,30 +36,19 @@ echo -e "\n\n\n---Load average is:"
 uptime | awk -F'load average:' ' {print $2 }'
 }
 
-
-
 main(){
 os
 
 echo "------ System health status ------"
-echo -e "\n------- CPU Usage -------"
+echo -e "\n\n------- CPU Usage -------"
 CPU_usage
-
-
-echo -e "\n\n\n\n-------- Memory usage -------"
+echo -e "\n\n-------- Memory usage -------"
 Memory_usage
-
-
-echo -e "\n\n\n\n-------- Disk usage ---------"
-
+echo -e "\n\n-------- Disk usage ---------"
 Disk_usage
-
-
-echo -e  "\n\n\n\n------- Top 5 CPU usage-------"
+echo -e  "\n\n------- Top 5 CPU usage-------"
 CPU_tally
-
-
-echo -e "\n\n\n------ Top 5 Memory Usage ------"
+echo -e "\n\n------ Top 5 Memory Usage ------"
 Memory_tally
 
 uptime_funct
