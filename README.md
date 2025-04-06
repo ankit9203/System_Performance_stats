@@ -45,7 +45,7 @@ Output
 Results are saved in a file named system_health.log in the current directory.
 
 ------
-
+```bash
 Example Output (Text)
 
 ==== System Health Report ====
@@ -71,7 +71,7 @@ Top 5 Processes by Memory:
 
 Author
 
-   ** @ankit9203
+   @ankit9203
 
 ------
 
